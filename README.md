@@ -1,1 +1,3 @@
 # task22
+在这里要注意firstChild和lastChild在各个浏览器的实现方式，在chrome、firefox、safari和opera中，标签之间的空白和回车会被解析为创建空白文本节点。因此，firstChild和lastChild获得的子节点和实际的节点有差别。要注意。
+另外，可以通过firstElementChild和lastElementChild来获得对应的元素节点，但是在我（standself）这里行不通
